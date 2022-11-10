@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dodaj Anime</title>
+</head>
+<body>
+<div class="grid">
+    <div class="lewy">
+        <h3>Dostęne gatunki Anime</h3>
+        <ol>
+            <li>Isekai</li>
+            <li>Otome</li>
+            <li>Slice of life</li>
+            <li>Romans</li>
+            <li>Dramat</li>
+            <li>Komedie</li>
+            <li>Historyczne</li>
+            <li>Nie zidentyfikowane</li>
+        </ol>
+        <img src="../gif/gatunki.gif" style="width:50%; height:auto;">
+        </div>
+
+        <div class="prawy_gora">
+            <h1>AniMedia</h1>
+        </div>
+    
+        <div class="prawy_srodek">
+            <h3>Nasi tłumacze</h3>
+            <ol>
+                <li>Wbijam</li>
+                <li>Shinden</li>
+                <li>Desu-Online</li>
+                <li>Żaden z powyższych</li>
+                
+            </ol>
+            <img src="../gif/tlumacze.gif" style="width:50%; height:auto;">
+        </div>
+        <div class="prawy_dol">
+                <form action="dodaj.php" method="post">
+            Tytuł<input type="text" name="tytul"><br>
+            Gatunek anime<input type="number" name="gatunek"><br>
+            Opis<input type="text" name="opis"><br>
+            Ocena<input type="number" name="ocena" min="1" max="5"><br>
+            Tłumacz<input type="number" name="tlumacz" min="1" max="4"><br>
+            <input type="reset" value="CZYŚĆ">
+            <input type="submit" value="DODAJ">
+        </form>
+
+            <img src="kadr.jpg" alt="">
+        </div>
+        <div class="stoopka">
+        <a href="../index.html">Powrót do strony głównej</a>
+        <a href="../odczyt/odczyt (2).php">Baza Anime</a>
+        </div>
+</div>
+    
+</body>
+</html>
